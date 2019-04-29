@@ -38,12 +38,11 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in San
-              Francisco building useful things.
-              {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
-              </a>
+            Hi, I'm Alan. I am a data consultant and writer from Northern Ireland.
+            <br /><br />
+            This is my personal blog where I write on a variety of topics including business, personal finance, tech, careers, writing and my quest to build a simple kind of life.
+            <br /><br />
+            Read more of <a href="\blog">my blog</a> here or follow me on <a href="https://twitter.com/alanhylands">Twitter</a>.
             </p>
           </div>
         )

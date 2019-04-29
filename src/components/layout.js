@@ -32,7 +32,7 @@ class Layout extends React.Component {
       )
     } else {
       header = (
-        <h3
+        <h2
           style={{
             fontFamily: `Montserrat, sans-serif`,
             marginTop: 0,
@@ -48,12 +48,13 @@ class Layout extends React.Component {
           >
             {title}
           </Link>
-        </h3>
+        </h2>
       )
     }
     return (
       <div
         style={{
+          marginTop: `50px`,
           marginLeft: `auto`,
           marginRight: `auto`,
           maxWidth: rhythm(24),
@@ -63,9 +64,15 @@ class Layout extends React.Component {
         <header>{header}</header>
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()}, 
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a href="https://santinotech.com">Santinotech</a> |   
+          <a href="https://twitter.com/alanhylands">
+            Twitter
+          </a> |   
+          <a href="https://linkedin.com/in/alanhylands/">
+              LinkedIn
+          </a>
         </footer>
       </div>
     )

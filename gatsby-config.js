@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `Alan Hylands`,
+    author: `Alan Hylands`,
+    description: `Personal website of data consultant and writer Alan Hylands.`,
+    siteUrl: `https://alanhylands.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `alanhylands`,
     },
   },
   plugins: [
@@ -50,7 +50,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        //trackingId: `UA-20763994-2`,
       },
     },
     `gatsby-plugin-feed`,
