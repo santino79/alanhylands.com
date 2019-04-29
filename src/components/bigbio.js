@@ -49,18 +49,23 @@ function Bigbio() {
             Currently, I am Head of Retail Commercial Excellence at Ulster Bank.
             <br /><br /> 
             I help the Retail bank use data to solve difficult business problems and serve our customers better.
-
-            <h3>I Teach.</h3>
+            <br /><br />
+            <img src="/sa-logo.png" alt="Simple Analytical" />
+            <br />
             I share my best lessons, hints, tips and strategies for <strong>data analysts</strong> on <a href="https://simpleanalytical.com">SimpleAnalytical.com.</a>
             <br /><br />
             I help them level up their data science skills and use them to build better, more profitable, data-driven businesses.
             
-            <h3>I Do.</h3>
+            <br /><br />
+            <img src="/CuraFitnessLogo.jpg" alt="Cura Fitness" />
+            <br />
             I use my particular set of skills to help businesses get off the ground and keep growing.
             <br /><br />
             Right now that's as <strong>Technical Director</strong> at boutique fitness studio, <a href="https://curafitness.com">Cura Fitness</a>.
 
-            <h3>I Write.</h3>
+            <br /><br />
+            <img src="/san-logo.png" alt="Santinotech" />
+            <br />
             I've been a professional writer with clients including <strong>About.com</strong> and <strong>The New York Times Company</strong>.
             <br /><br />
             These days, I am a contributing writer on <a href="https://towardsdatascience.com">Towards Data Science</a>, <a href="https://hackernoon.com/">Hacker Noon</a> and <a href="https://dev.to/alanhylands">Dev.to</a>.
