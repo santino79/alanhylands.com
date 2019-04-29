@@ -61,6 +61,8 @@ I've still got several updates to this site that I'd like to do so it'lll remain
 
 What I really have to think about now is whether I want to migrate [Simple Analytical](https://simpleanalytical.com) over to Gatsby with a lot more posts, code blocks, tables and Mailchimp integrations. Watch out for Part 2 when I get that conundrum worked out.
 
-So am I done with Wordpress now? Simple answer is no. Like all tech options, it will come down to horses for courses. For a clean, simple blog I like the thought of just writing up a Markdown file, uploading it and seeing it live. For sites and online apps that could be doing with the full Wordpress admin backend and database, I'll still look to it for the foreseeable future.
+##So am I done with Wordpress now?##
+
+Simple answer is no. Like all tech options, it will come down to horses for courses. For a clean, simple blog I like the thought of just writing up a Markdown file, uploading it and seeing it live. For sites and online apps that could be doing with the full Wordpress admin backend and database, I'll still look to it for the foreseeable future.
 
 Life does not have to a case of EITHER/OR, sometimes it's good to keep a few options in your toolbelt. I've made a career out of being a Data MacGyver, no reason to change that when it comes to the end of nearly my second decade building websites as well.
