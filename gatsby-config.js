@@ -3,7 +3,7 @@ module.exports = {
     title: `Alan Hylands`,
     author: `Alan Hylands`,
     description: `Personal website of data consultant and writer Alan Hylands.`,
-    siteUrl: `https://alanhylands.com/`,
+    siteUrl: `https://www.alanhylands.com/`,
     social: {
       twitter: `alanhylands`,
     },
@@ -67,6 +67,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-typography`,
