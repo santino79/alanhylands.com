@@ -7,15 +7,15 @@ description:    "Migrating My Blog From Wordpress To Gatsby - Part 1"
 
 ##Where it began oh oh oh oh##
 
-My first website was hand-coded in HTML. We're talking late 2001/early 2002 here. Sopranos was just getting started on TV but the shot of the Twin Towers in the intro sequence was already sadly out of date.
+My first website was hand-coded in HTML in Notepad. We're talking late 2001/early 2002 here.
 
-I wrote it in Notepad in straight HTML. Opened up Internet Explorer and there it was in all it's glory. It was a simpler time. I jumped over first to Microsoft Frontpage (clunky and horrible) and then Macromedia Dreamweaver which was a LOT smoother to use. And somewhere along the line I stopped hand coding HTML.
+I opened up Internet Explorer and there it was in all it's glory. It was a simpler time. I jumped over first to Microsoft Frontpage (clunky and horrible) and then Macromedia Dreamweaver which was a LOT smoother to use. And somewhere along the line I stopped hand coding HTML.
 
 ![My first website in 2003](./rattlesnake_suitcase2003.png)
 
 By the time I started my first blog in 2005 there was a new kid on the scene that everyone seemed to be talking about - **Wordpress**. It's hard to believe now but back then there was still a lot of scepticism about Matt's ability to really make a dent in the CMS world. Especially at a time when PHP was already starting to draw it's fair share of criticism from the developer community. Looking back now as around a third of all websites run on Wordpress, you have to say Matt knew what he was doing!
 
-Over the intervening years I put a lot of time into building websites with Wordpress. Woocommerce shops. Affiliate stores with product pages populated from Amazon's API (amongst others). Personal blogs (mainly this one) over and over and over. Grand opening, grand closing. When I wanted to build a website I installed Wordpress. Me and most of the rest of the world as the number of WP installs shows.
+Over the intervening years I put a lot of time into building websites with Wordpress. Woocommerce shops. Affiliate stores with product pages populated from Amazon's API (amongst others). Salon booking systems. Membership sites. Personal blogs (mainly this one) over and over and over. Grand opening, grand closing. When I wanted to build a website I installed Wordpress. Me and most of the rest of the world as the number of WP installs shows.
 
 ##Back in the saddle again.##
 
