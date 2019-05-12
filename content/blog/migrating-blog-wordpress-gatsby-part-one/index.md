@@ -5,15 +5,17 @@ description:    "Migrating My Blog From Wordpress To Gatsby - Part 1"
 ---
 ![Leonardo DiCaprio as Gatsby](./leo-gatsby.jpg)
 
-##Where it began oh oh oh oh##
+##Where it began.##
 
-My first website was hand-coded in HTML in Notepad. We're talking late 2001/early 2002 here.
+Language wars and chasing shiny new frameworks have been a hallmark of the web development world for as along as I can remember. My first website was hand-coded in HTML in Notepad. We're talking late 2001/early 2002 here.
 
-I opened up Internet Explorer and there it was in all it's glory. It was a simpler time. I jumped over first to Microsoft Frontpage (clunky and horrible) and then Macromedia Dreamweaver which was a LOT smoother to use. And somewhere along the line I stopped hand coding HTML.
+I opened up Internet Explorer and there it was in all it's glory. It was a simpler time.
+
+I jumped over first to Microsoft Frontpage (clunky and horrible) and then Macromedia Dreamweaver which was a LOT smoother to use. And somewhere along the line I stopped hand coding HTML.
 
 ![My first website in 2003](./rattlesnake_suitcase2003.png)
 
-By the time I started my first blog in 2005 there was a new kid on the scene that everyone seemed to be talking about - **Wordpress**. It's hard to believe now but back then there was still a lot of scepticism about Matt's ability to really make a dent in the CMS world. Especially at a time when PHP was already starting to draw it's fair share of criticism from the developer community. Looking back now as around a third of all websites run on Wordpress, you have to say Matt knew what he was doing!
+By the time I started my first blog in 2005 there was a new kid on the block that everyone seemed to be talking about - **Wordpress**. It's hard to believe now but back then there was still a lot of scepticism about Matt's ability to really make a dent in the CMS world. Especially at a time when PHP was already starting to draw it's fair share of criticism from the developer community. Looking back now as around a third of all websites run on Wordpress, you have to say Matt knew what he was doing!
 
 Over the intervening years I put a lot of time into building websites with Wordpress. Woocommerce shops. Affiliate stores with product pages populated from Amazon's API (amongst others). Salon booking systems. Membership sites. Personal blogs (mainly this one) over and over and over. Grand opening, grand closing. When I wanted to build a website I installed Wordpress. Me and most of the rest of the world as the number of WP installs shows.
 
@@ -65,4 +67,4 @@ What I really have to think about now is whether I want to migrate [Simple Analy
 
 Simple answer is no. Like all tech options, it will come down to horses for courses. For a clean, simple blog I like the thought of just writing up a Markdown file, uploading it and seeing it live. For sites and online apps that could be doing with the full Wordpress admin backend and database, I'll still look to it for the foreseeable future.
 
-Life does not have to a case of EITHER/OR, sometimes it's good to keep a few options in your toolbelt. I've made a career out of being a Data MacGyver, no reason to change that when it comes to the end of nearly my second decade building websites as well.
+Life does not have to be a case of EITHER/OR, sometimes it's good to keep a few options in your toolbox. I've made a career out of being a Data MacGyver, no reason to change that when it comes to the end of nearly my second decade building websites as well.
