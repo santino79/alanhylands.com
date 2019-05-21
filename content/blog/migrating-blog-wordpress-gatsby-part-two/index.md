@@ -5,7 +5,7 @@ description:    "Migrating My Blog From Wordpress To Gatsby - Part 2"
 ---
 ![Cover of F. Scott Fitzgerald's The Great Gatsby](./f-scott-gatsby.jpg)
 
-I wrote in [Part One](https://www.alanhylands.com/migrating-blog-wordpress-gatsby-part-one/) about finally biting the bullet and giving Gatsby a go. Having dipped my toe in it's delectable waters I knew full well that it was only a matter of time before I went deeper down the rabbit hole.
+I wrote in [Part One](https://alanhylands.com/migrating-blog-wordpress-gatsby-part-one/) about finally biting the bullet and giving Gatsby a go. Having dipped my toe in it's delectable waters I knew full well that it was only a matter of time before I went deeper down the rabbit hole.
 
 So I spent the past couple of weeks converting my main data and analytics site [Simple Analytical](https://simpleanalytical.com) to Gatsby from Wordpress. Yes, there is an element of yak shaving in there.
 
@@ -80,10 +80,10 @@ I will have to re-visit this in time as it only sets people up to be added to th
 
 ###Any other issues?
 
-I mentioned in [Wordpress->Gatsby part 1](https://www.alanhylands.com/migrating-blog-wordpress-gatsby-part-one/) that I'd had to do an email workaround and I've done the same thing on this site migration. Netlify DNS is very easy to configure so adding A and MX records to point to the mailserver at my other hosting provider was pretty simple.
+I mentioned in [Wordpress->Gatsby part 1](https://alanhylands.com/migrating-blog-wordpress-gatsby-part-one/) that I'd had to do an email workaround and I've done the same thing on this site migration. Netlify DNS is very easy to configure so adding A and MX records to point to the mailserver at my other hosting provider was pretty simple.
 
 Otherwise, the migration was quick. The site is **VERY** fast on pageload and [Google's Pagespeed Insights](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fsimpleanalytical.com%2F) tool **LOVES** it.
 
 I'll report back in future if any major problems show up but for now I'm more than happy to have made the switch. I'm not finished with Wordpress. In fact I've spent a good part of the week putting a booking system together for a client using Wordpress and the excellent [Amelia](https://wpamelia.com/) plug-in.
 
-I'm not planning on becoming a full-time front-end dev either but it's been an interesting sojourn into this world. Javascript and web apps have came on a long way from my early days using it. But the support and guidance from so many devs in the community through blog posts, articles and forum answers has been a big help into getting up and running quickly. I'm looking forward to building on the basis of these [two](https://www.alanhylands.com) [sites](https://simpleanalytical.com) I've migrated over to Gatsby. And who knows, I might even get around to writing more articles for them along the way!
+I'm not planning on becoming a full-time front-end dev either but it's been an interesting sojourn into this world. Javascript and web apps have came on a long way from my early days using it. But the support and guidance from so many devs in the community through blog posts, articles and forum answers has been a big help into getting up and running quickly. I'm looking forward to building on the basis of these [two](https://alanhylands.com) [sites](https://simpleanalytical.com) I've migrated over to Gatsby. And who knows, I might even get around to writing more articles for them along the way!

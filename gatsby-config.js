@@ -3,7 +3,7 @@ module.exports = {
     title: `Alan Hylands`,
     author: `Alan Hylands`,
     description: `Personal website of data consultant and writer Alan Hylands.`,
-    siteUrl: `https://www.alanhylands.com/`,
+    siteUrl: `https://alanhylands.com/`,
     social: {
       twitter: `alanhylands`,
     },
@@ -50,15 +50,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `UA-20763994-2`,
+        trackingId: `UA-20763994-2`,
       },
     },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Alan Hylands`,
+        short_name: `Alan Hylands`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
