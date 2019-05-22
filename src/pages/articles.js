@@ -3,9 +3,8 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
 
-class BlogIndex extends React.Component {
+class ArticleIndex extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
@@ -14,23 +13,19 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
-          title="All posts"
-          keywords={[`blog`, `gatsby`, `javascript`, `react`]}
+          title="All Articles"
+          keywords={[`blog`, `articles`]}
         />
         <h2>All Articles</h2>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
             <div key={node.fields.slug}>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+              <h4>
+                <Link to={node.fields.slug}>
                   {title}
                 </Link>
-              </h3>
+              </h4>
             </div>
           )
         })}
@@ -39,7 +34,7 @@ class BlogIndex extends React.Component {
   }
 }
 
-export default BlogIndex
+export default ArticleIndex
 
 export const pageQuery = graphql`
   query {

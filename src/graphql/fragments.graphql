@@ -1,0 +1,7 @@
+fragment frontmatterFragment on MarkdownRemark {
+  frontmatter {
+    title
+    date(formatString: "MMM DD, YYYY")
+    description
+  }
+}

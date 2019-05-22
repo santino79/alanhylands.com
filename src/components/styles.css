@@ -1,0 +1,151 @@
+/*.navigation {
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 20vh;
+    max-height: 100px;
+    font-size: 1.25em;
+  }
+  
+  .navigationItem {
+    display: inline-flex;
+    align-items: center;
+    margin: 0 1em;
+  }
+  */
+body{
+  font-family: "Catamaran", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  text-transform: none;
+  font-size: 18px;
+}
+
+
+  a {
+    color: #0f8e08;
+    text-decoration: none;
+    box-shadow: none;
+  }
+
+  a:hover{
+    color: #939393;
+  }
+
+  .Navigation {
+    text-align: center;
+    /* text-transform: uppercase; */
+    letter-spacing: .0625em;
+    float: right;
+   
+  }
+
+  .Navigation a {
+    color: currentColor;
+    /* display: block; */
+    color: inherit;
+    text-decoration: none;
+    box-shadow: none;
+    font-weight: 600;   
+  }
+
+  .Navigation a:hover {
+    color: #0f8e08;
+  } 
+
+.NavigationItem {
+    display: inline-block;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+.Banner {
+  /*font-family: Oswald, sans-serif;*/
+  font-weight: bold;
+}
+
+.Banner a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  box-shadow: none;
+}
+
+h1 {
+  scale: 1.5;
+  margin-bottom: 1.5;
+  margin-top: 0;
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  margin-Top: 30;
+}
+
+
+.Banner-line {
+display: block;
+margin-right: -10px;
+font-family: Lato, sans-serif;
+font-weight: 100;
+}
+
+.Column {
+  max-width: 48em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+}
+
+.MainContent {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 48em;
+  padding-bottom: 30px;
+}
+
+.Footer {
+  /* max-width: 48em; */
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  background-color: #272c30;
+}
+
+.footer-content{
+  color: white;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+
+.u-textCenter {
+  text-align: center !important;
+}
+
+.u-textLeft {
+  text-align: left !important;
+}
+
+.u-textRight {
+  text-align: right !important;
+}
+
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}

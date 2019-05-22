@@ -1,5 +1,5 @@
 /**
- * Bigbio component that queries for data
+ * Homepage component that queries for data
  * with Gatsby's StaticQuery component
  *
  * See: https://www.gatsbyjs.org/docs/static-query/
@@ -8,28 +8,22 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
-import { rhythm } from "../utils/typography"
 
-function Bigbio() {
+function HomePage() {
   return (
     <StaticQuery
-      query={BigbioQuery}
+      query={HomePageQuery}
       render={data => {
         return (
           
                   
-          <div
-            style={{
-              display: `fixed`,
-              marginBottom: rhythm(2.5),
-            }}
-          >
+          <div className="MainContent u-textCenter">
             <Image
             fixed={data.avatar.childImageSharp.fixed}
             alt="Alan Hylands"
             style={{
               marginRight: 50,
-              marginBottom: 50,
+              marginBottom: 10,
               minWidth: 50,
               borderRadius: `100%`,
             }}
@@ -38,12 +32,13 @@ function Bigbio() {
             }}
           />
 
-            <p>
-            Hi, I'm Alan. I am a data consultant and writer from Northern Ireland.
-            <br /><br />
-            This is my personal blog where I write on a variety of topics including business, personal finance, tech, careers, writing and my quest to build a simple kind of life.
-            <br /><br />
-            Read <a href="\blog">my blog</a> here.
+            <h2>
+            My name is Alan Hylands. <br />
+            
+            I am a data consultant and writer from Northern Ireland.
+            </h2>
+
+            This is my personal website where I write on a variety of topics including business, personal finance, tech, careers, writing and my quest to build a simple kind of life.
 
             <h2>What I Do.</h2>
             Currently, I am Head of Retail Commercial Excellence at Ulster Bank.
@@ -70,7 +65,6 @@ function Bigbio() {
             <br /><br />
             These days, I am a contributing writer on <a href="https://towardsdatascience.com">Towards Data Science</a>, <a href="https://hackernoon.com/">Hacker Noon</a> and <a href="https://dev.to/alanhylands">Dev.to</a>.
             
-            </p>
           </div>
         )
       }}
@@ -78,8 +72,8 @@ function Bigbio() {
   )
 }
 
-const BigbioQuery = graphql`
-  query BigbioQuery {
+const HomePageQuery = graphql`
+  query HomePageQuery {
     avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
       childImageSharp {
         fixed(width: 200, height: 200) {
@@ -95,4 +89,4 @@ const BigbioQuery = graphql`
   }
 `
 
-export default Bigbio
+export default HomePage
