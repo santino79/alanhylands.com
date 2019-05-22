@@ -24,7 +24,7 @@ export default function About({ data }) {
                   maxWidth: 240,
                   borderRadius: '50%',
                 }}
-                src="../alan-tuscany.jpg" alt="Alan Hylands in Tuscany, July 2017"
+                src="/alan-tuscany.jpg" alt="Alan Hylands in Tuscany, July 2017"
               />
             </div>
             <div 
