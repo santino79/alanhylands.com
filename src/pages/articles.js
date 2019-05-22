@@ -21,11 +21,11 @@ class ArticleIndex extends React.Component {
           const title = node.frontmatter.title || node.fields.slug
           return (
             <div key={node.fields.slug}>
-              <h4>
+              
                 <Link to={node.fields.slug}>
                   {title}
                 </Link>
-              </h4>
+              
             </div>
           )
         })}
@@ -43,7 +43,10 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { date: { ne: null } } }
+      ) {
       edges {
         node {
           excerpt

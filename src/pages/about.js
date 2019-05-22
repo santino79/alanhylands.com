@@ -27,7 +27,6 @@ export default function About({ data }) {
                 src="/alan-tuscany.jpg" alt="Alan Hylands in Tuscany, July 2017"
               />
             </div>
-            <h2>About Alan Hylands</h2>
             <div 
               className="u-textLeft"
               dangerouslySetInnerHTML={{ __html: page.html }}
