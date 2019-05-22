@@ -38,7 +38,6 @@ body{
 
   .Navigation {
     text-align: center;
-    /* text-transform: uppercase; */
     letter-spacing: .0625em;
     float: right;
    
@@ -46,7 +45,6 @@ body{
 
   .Navigation a {
     color: currentColor;
-    /* display: block; */
     color: inherit;
     text-decoration: none;
     box-shadow: none;
