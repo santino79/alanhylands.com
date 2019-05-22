@@ -68,7 +68,7 @@ module.exports = {
         short_name: `Alan Hylands`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#0f8e08`,
         display: `minimal-ui`,
         icon: `content/assets/gatsby-icon.png`,
       },
