@@ -23,6 +23,12 @@ body{
   font-size: 18px;
   margin-left: auto;
   margin-right: auto;
+
+  
+}
+
+ol {
+  list-style-type: decimal;
 }
 
 
@@ -73,6 +79,8 @@ body{
   box-shadow: none;
 }
 
+
+
 h1 {
   scale: 1.5;
   margin-bottom: 1.5;
@@ -81,8 +89,11 @@ h1 {
   margin: 0.67em 0;
 }
 
-h2 {
+h2, h3, h4 {
   font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
   margin-Top: 30;
 }
 
@@ -114,13 +125,6 @@ font-weight: 100;
 
 }
 
-ol {
-  list-style-type: decimal;
-}
-
-ul {
-    list-style-type: disc;
-}
 
 ol, ul, dl {
     padding-left: 1.375em;
@@ -160,9 +164,5 @@ ol, ul, dl {
 
 
 ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  list-style: none;
-  padding: 0;
+  list-style: disc;
 }
