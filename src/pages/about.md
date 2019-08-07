@@ -33,9 +33,11 @@ I started my first **e-commerce** development agency in 2003. Since then I have 
 
 Quite unexpectedly, I was seduced into the corporate world of **banking and financial services** in the boom-time mid-noughties.
 
-I've since spent the past twelve years running **Data and Analytics projects** for a large UK and Ireland banking group. I've worked my way up through the ranks from senior data analyst to senior analytics manager to **Head of Retail Commercial Excellence**.
+I spent over twelve years running **Data and Analytics projects** for a large UK and Ireland banking group. I worked my way up through the ranks from senior data analyst to senior analytics manager to **Head of Retail Commercial Excellence**.
 
-We act as a small, highly skilled mini-consultancy, helping guide the business on getting most value out of their commercial data driven projects and programmes. I bring all of my **financial, analytical and entrepreneurial experience** to the table to get results for our customers - **just as I do in my own consulting work**.
+We operated as a small, highly skilled mini-consultancy, helping guide the business on getting most value out of their commercial data driven projects and programmes.
+
+Now in my own consulting work at [Santinotech](https://santinotech.com), I bring all of my **financial, analytical and entrepreneurial experience** to the table to get results for our customers.
 
 I am also **Technical Director** at [Cura Fitness](https://curafitness.com), a boutique fitness studio based in County Down, Northern Ireland. We offer group fitness classes and personal training to ladies of all ages, shapes, sizes and fitness levels. I run the back office operations including finances, data, technology and administration.
 

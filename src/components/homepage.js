@@ -15,57 +15,47 @@ function HomePage() {
       query={HomePageQuery}
       render={data => {
         return (
-          
-                  
-          <div className="MainContent u-textCenter">
-            <Image
-            fixed={data.avatar.childImageSharp.fixed}
-            alt="Alan Hylands"
-            style={{
-              marginRight: 50,
-              marginBottom: 10,
-              minWidth: 50,
-              borderRadius: `100%`,
-            }}
-            imgStyle={{
-              borderRadius: `50%`,
-            }}
-          />
+        <div className="Column">
+          <div className="MainContent">
+            <div className="u-textCenter">
+    
+          <Image
+              fixed={data.avatar.childImageSharp.fixed}
+              alt="Alan Hylands"
+              style={{
+                marginRight: 50,
+                marginBottom: 0,
+                minWidth: 50,
+                borderRadius: `100%`,
+              }}
+              imgStyle={{
+                borderRadius: `50%`,
+              }}
+            />
+            </div>
 
-            <h2>
-            My name is Alan Hylands. <br />
-            
-            I am a data consultant and writer from Northern Ireland.
-            </h2>
+            <div className="u-textLeft">
 
-            This is my personal website where I write on a variety of topics including business, personal finance, tech, careers, writing and my quest to build a simple kind of life.
-
-            <h2>What I Do.</h2>
-            Currently, I am Head of Retail Commercial Excellence at Ulster Bank.
-            <br /><br /> 
-            I help the Retail bank use data to solve difficult business problems and serve our customers better.
-            <br /><br />
-            <img src="/sa-logo.png" alt="Simple Analytical" />
-            <br />
+          <h1>Hi, I'm Alan.</h1>
+            <p>
+            I am the founder of <a href="https://santinotech.com">Santinotech</a>, technical director at <a href="https://curafitness.com">Cura Fitness</a> and a freelance writer.
+            </p>
+            <p>
+            This is my personal website where I write <a href="/articles">articles</a> on a variety of topics including business, personal finance, tech, careers, writing and my quest to build a simple kind of life.
+            </p>
+            <p>
             I share my best lessons, hints, tips and strategies for <strong>data analysts</strong> on <a href="https://simpleanalytical.com">SimpleAnalytical.com.</a>
-            <br /><br />
+            <br />
             I help them level up their data science skills and use them to build better, more profitable, data-driven businesses.
-            
-            <br /><br />
-            <img src="/CuraFitnessLogo.jpg" alt="Cura Fitness" />
-            <br />
-            I use my particular set of skills to help businesses get off the ground and keep growing.
-            <br /><br />
-            Right now that's as <strong>Technical Director</strong> at boutique fitness studio, <a href="https://curafitness.com">Cura Fitness</a>.
-
-            <br /><br />
-            <img src="/san-logo.png" alt="Santinotech" />
-            <br />
+            </p>
+            <p>
             I've been a professional writer with clients including <strong>About.com</strong> and <strong>The New York Times Company</strong>.
-            <br /><br />
+            <br />
             These days, I am a contributing writer on <a href="https://towardsdatascience.com">Towards Data Science</a>, <a href="https://hackernoon.com/">Hacker Noon</a> and <a href="https://dev.to/alanhylands">Dev.to</a>.
-            
+            </p>
           </div>
+        </div>
+      </div>
         )
       }}
     />

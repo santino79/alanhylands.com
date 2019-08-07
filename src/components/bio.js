@@ -18,6 +18,7 @@ function Bio() {
       render={data => {
         const { author } = data.site.siteMetadata
         return (
+
           <div
             style={{
               display: `flex`,
@@ -38,7 +39,9 @@ function Bio() {
               }}
             />
             <p>
-            Hi, I'm Alan. I am a data consultant and writer from Northern Ireland.
+            <h1>Hi, I'm Alan.</h1>
+           
+            I am a data consultant and writer from Northern Ireland.
             <br /><br />
             This is my personal blog where I write on a variety of topics including business, personal finance, tech, careers, writing and my quest to build a simple kind of life.
             <br /><br />
