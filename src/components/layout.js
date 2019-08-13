@@ -1,5 +1,5 @@
 import React from 'react'
-import Helmet from 'react-helmet'
+import SEO from './seo'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Banner from './banner'
@@ -19,14 +19,11 @@ export default ({ children }) => (
     `}
     render={data => (
       <>
-        <Helmet>
-          <meta name="google-site-verification" 
-          content="sMd20Bbu-a1WQy1w6iQm4frw8Zu9HAAuxdfLJXG86_k" />
-        </Helmet>
+        <SEO />
         <div className="Header">
           <Banner />
         </div>
-          <div className="Column">
+          <div className="Navigation">
           <Navigation />
         </div>
         <div className="MainContent u-textLeft">

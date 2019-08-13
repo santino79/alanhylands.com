@@ -46,7 +46,12 @@ ol {
     text-align: center;
     letter-spacing: .0625em;
     float: none;
-    margin-top: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #dedede;
   }
 
   .Navigation a {
