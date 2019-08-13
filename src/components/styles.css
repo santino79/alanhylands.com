@@ -45,8 +45,8 @@ ol {
   .Navigation {
     text-align: center;
     letter-spacing: .0625em;
-    float: right;
-   
+    float: none;
+    margin-top: 10px;
   }
 
   .Navigation a {
@@ -58,7 +58,8 @@ ol {
   }
 
   .Navigation a:hover {
-    color: #0f8e08;
+    color: inherit;
+    text-decoration: underline;
   } 
 
 .NavigationItem {
@@ -67,9 +68,22 @@ ol {
     padding-right: 1em;
   }
 
+  .Header {
+    /* max-width: 48em; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #000000;
+  }
+  
+
 .Banner {
   /*font-family: Oswald, sans-serif;*/
   font-weight: bold;
+  text-align: center;
+  /* margin-top: 10px; */
 }
 
 .Banner a {
@@ -79,7 +93,21 @@ ol {
   box-shadow: none;
 }
 
-
+.Banner-line {
+  display: block;
+  margin-right: -10px;
+  font-family: Lato, sans-serif;
+  font-weight: 100;
+  }
+  
+  .Banner-logo {
+    float: center;
+    margin-right: .25em;
+    width: auto;
+    height: auto;
+    vertical-align: top;
+  }
+  
 
 h1 {
   scale: 1.5;
@@ -89,8 +117,8 @@ h1 {
   margin: 0.67em 0;
 }
 
-h2, h3, h4 {
-  font-family: 'Montserrat', sans-serif;
+h1, h2, h3, h4 {
+  font-family: 'Futura', sans-serif;
 }
 
 h2 {
@@ -98,12 +126,7 @@ h2 {
 }
 
 
-.Banner-line {
-display: block;
-margin-right: -10px;
-font-family: Lato, sans-serif;
-font-weight: 100;
-}
+
 
 .Column {
   max-width: 48em;

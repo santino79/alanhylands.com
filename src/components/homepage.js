@@ -34,9 +34,10 @@ function HomePage() {
             />
             </div>
 
-            <div className="u-textLeft">
+            
 
-          <h1>Hi, I'm Alan.</h1>
+          <h1 className="u-textCenter">Hi, I'm Alan.</h1>
+          <div className="u-textLeft">
             <p>
             I am the founder of <a href="https://santinotech.com">Santinotech</a>, technical director at <a href="https://curafitness.com">Cura Fitness</a> and a freelance writer.
             </p>
