@@ -68,6 +68,10 @@ function SEO({ description, lang, meta, keywords, title }) {
           content: metaDescription,
         },
         {
+          name: `twitter:image`,
+          content: `https://alanhylands.com/share.png,`
+        },
+        {
           name: `google-site-verification`,
           content: `sMd20Bbu-a1WQy1w6iQm4frw8Zu9HAAuxdfLJXG86_k`,
         },
