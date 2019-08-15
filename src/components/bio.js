@@ -38,14 +38,11 @@ function Bio() {
                 borderRadius: `50%`,
               }}
             />
+            
             <p>
-            <h1>Hi, I'm Alan.</h1>
-           
-            I am a data consultant and writer from Northern Ireland.
-            <br /><br />
-            This is my personal blog where I write on a variety of topics including business, personal finance, tech, careers, writing and my quest to build a simple kind of life.
-            <br /><br />
-            Read more of <a href="\blog">my blog</a> here or follow me on <a href="https://twitter.com/alanhylands">Twitter</a>.
+            <strong>Alan Hylands</strong> is a data consultant and writer from Northern Ireland.
+            <br />
+            Read more articles <a href="\articles">here</a> or follow Alan on <a href="https://twitter.com/alanhylands">Twitter</a>.
             </p>
           </div>
         )
