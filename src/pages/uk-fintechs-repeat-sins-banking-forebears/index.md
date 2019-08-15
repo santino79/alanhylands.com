@@ -19,7 +19,9 @@ Is the UK fintech market just experiencing the inadvertent digital growing pains
 
 ##Carelessness at Monzo.
 
-**Monzo** have so far garnered plaudits for their upfront approach to admitting when they’ve been involved in previous breaches. Like last year when their online survey partners [Typeform](https://monzo.com/blog/2018/06/29/typeform-breach) dragged them into a data breach involving 20,000 customers. With personal details like email address, post code, Twitter handles and actual customer names lost, it was embarrassing. But at least they had Typeform to throw under the bus as being ultimately responsible.
+**Monzo** have so far garnered plaudits for their upfront approach to admitting when they’ve been involved in security breaches. It does help when you've been getting plenty of practice and is made somewhat easier when there is a third party involved to take the fall.
+
+Like last year when their online survey partners [Typeform](https://monzo.com/blog/2018/06/29/typeform-breach) dragged them into a data breach involving 20,000 customers. With personal details like email address, post code, Twitter handles and actual customer names lost, it was embarrassing. But at least they had Typeform to throw under the bus as ultimately being responsible.
 
 Similarly when a Ticketmaster-related scam saw some of their customers being defrauded, they were quick to call it out and make sure everyone knew their Financial Crime team had been on the ball in spotting the fraud. Dropping the line that they tipped the US Secret Service off to the incident was a nice touch on just how speedy they had been,
 
