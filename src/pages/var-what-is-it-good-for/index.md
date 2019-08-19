@@ -17,11 +17,11 @@ In a fit of petulance I refused to applaud Roy Carroll whenever I went to see hi
 
 And why not? I’ve worked with technology for my whole career, building software and data models. I know how powerful it can be. So who wouldn’t want the officials to get all the help they can to make sure the right decisions are made? How naive I was.
 
-Goal-line technology was introduced to the English Premier League eight years after the Mendes incident. Pedro Mendes’ Spurs career never recovered and a year later he took his shiny locks and silky passing skills to Portsmouth. His next brush with English football notoriety came in August 2006 when Ben Thatcher almost elbowed his head clean off his shoulders in a game against Manchester City. A seizure in the ambulance on the way to hospital and a subsequent eight game ban for Thatcher were hardly the additional lasting memories he’d have wanted from his English football career.
+Goal-line technology wasn't introduced to the English Premier League until eight years after the Mendes incident. Pedro Mendes’ Spurs career never recovered and a year later he took his shiny locks and silky passing skills to Portsmouth. His next brush with English football notoriety came in August 2006 when Ben Thatcher almost elbowed his head clean off his shoulders in a game against Manchester City. A seizure in the ambulance on the way to hospital and a subsequent eight game ban for Thatcher were hardly the additional lasting memories he’d have wanted from his English football career.
 
 ##The rise of VAR.
 
-Goal-line technology became the thin end of the wedge however when FIFA started to pilot VAR. Already a firm fixture in other top level sports like Rugby Union, tennis and cricket, the Video Assistant Referee system was supposed to remove all doubt about controversial decisions that real-life refs may have missed. It hasn’t quite worked out that way though.
+Goal-line technology became the thin end of the wedge when FIFA started to pilot VAR. Already a firm fixture in other top level sports like Rugby Union, tennis and cricket, the Video Assistant Referee system was supposed to remove all doubt about controversial decisions that real-life refs may have missed. It hasn’t quite worked out that way though.
 
 VAR’s introduction in the 2018 World Cup in Russia led to widespread condemnation of it’s ability to suck the life and spontaneity right out of every game. It used to be bad enough having to temper your goal celebrations to look across at the nearest linesman for a flag but now it means a complete standstill as we wait for the ref to signal if he’s went to VAR for a decision as well.
 
@@ -49,4 +49,4 @@ But I still hate the momentary hesitation I’ve had to become accustomed to aft
 
 We get enough in-depth debate from the likes of Neville and Carragher in a TV studio, poring over slow motion replays of every incident from every conceivable angle. Once the whistle goes for kick-off, can we not just leave the game alone and let the officials do their best, however that may turn out? Otherwise, we’ll reduce it over time to nothing more than a perfectly synchronised computer simulation and no-one wants to watch that.
 
-Dull. Lifeless. Emotion-less. With all big decisions made by some knob watching a TV screen. If I wanted that level of "entertainment" I’d start watching the rugby...
+Dull. Lifeless. Emotion-less. With all big decisions made by some knob watching a TV screen. If I wanted that level of "entertainment" I’d start watching the cricket...
