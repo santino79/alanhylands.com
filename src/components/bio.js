@@ -40,7 +40,7 @@ function Bio() {
             />
             
             <p>
-            <strong>Alan Hylands</strong> is a data consultant and writer from Northern Ireland.
+            <strong>Alan Hylands</strong> is a writer and solver of difficult data problems from Northern Ireland.
             <br />
             Read more articles <a href="\articles">here</a> or follow Alan on <a href="https://twitter.com/alanhylands">Twitter</a>.
             </p>

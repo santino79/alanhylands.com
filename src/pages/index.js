@@ -12,7 +12,7 @@ class AHIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
-          title="Data Consultant and Writer from Northern Ireland"
+          title="Writer | Builder of online things | Solver of difficult data problems"
           keywords={[`blog`, `data`, `analytics`, `writer`]}
         />
 
