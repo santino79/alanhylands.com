@@ -36,11 +36,20 @@ function HomePage() {
 
             
 
-          <h1 className="u-textCenter">Hi, I'm Alan.</h1>
+          
           <div className="u-textLeft">
-            <p>
-            I am the founder of <a href="https://santinotech.com">Santinotech</a>, technical director at <a href="https://curafitness.com">Cura Fitness</a> and a freelance writer.
-            </p>
+            <h2 className="bigText">Solver of difficult data problems.</h2>
+            
+            I am the founder of <a href="https://santinotech.com">Santinotech</a>
+            
+            <h2 className="bigText">Builder of online (and offline) things.</h2>
+            
+            Technical director at <a href="https://curafitness.com">Cura Fitness</a> 
+            
+            <h2 className="bigText">Writer.</h2>
+            
+            and a freelance writer.
+            
             <p>
             This is my personal website where I write <a href="/articles">articles</a> on a variety of topics including business, personal finance, tech, careers, writing and my quest to build a simple kind of life.
             </p>
