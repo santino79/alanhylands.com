@@ -3,6 +3,8 @@ import { graphql } from "gatsby"
 // import Image from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { Twitter, LinkedIn, GitHub, Email } from '../components/social'
+
 
 class Index extends React.Component {
   render() {
@@ -16,7 +18,7 @@ class Index extends React.Component {
           keywords={[`blog`, `data`, `analytics`, `writer`]}
         />
 
-<div className="Column">
+      <div className="Column">
           <div className="MainContent">
             <div className="u-textCenter">
     
@@ -48,6 +50,13 @@ class Index extends React.Component {
             I've been a professional writer with clients including <strong>About.com</strong> and <strong>The New York Times Company</strong>.
             These days, I am a contributing writer on <a href="https://towardsdatascience.com">Towards Data Science</a>, <a href="https://hackernoon.com/">Hacker Noon</a> and <a href="https://dev.to/alanhylands">Dev.to</a>.
             
+            <div className="social-holder">
+              <Email />
+              <Twitter />
+              <LinkedIn />
+              <GitHub />
+            </div>
+
           </div>
         </div>
       </div>

@@ -139,7 +139,7 @@ h3 {
   margin-right: auto;
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .MainContent {
@@ -149,7 +149,7 @@ h3 {
   padding-left: 10px;
   padding-right: 10px;
   max-width: 48em;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 
 }
 
@@ -164,17 +164,16 @@ ol, ul, dl {
   /* max-width: 48em; */
   margin-left: auto;
   margin-right: auto;
-  padding-top: 50px;
+  padding-top: 20px;
   padding-left: 50px;
   padding-right: 50px;
-  padding-bottom: 30px;
-  background-color: #272c30;
+  padding-bottom: 20px;
+  background-color: #f7f7f7;
 }
 
 .footer-content{
-  color: white;
-  padding-left: 60px;
-  padding-right: 60px;
+  text-align: center !important;
+  font-size: 0.75em;
 }
 
 
@@ -193,4 +192,17 @@ ol, ul, dl {
 
 ul {
   list-style: disc;
+}
+
+.social-holder {
+  margin-top: 20px;
+}
+
+.social {
+  margin-left: 20px;
+  color: #222;
+}
+
+.social :hover {
+  color: #0f8e08;
 }

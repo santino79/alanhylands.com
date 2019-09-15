@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "alan-hylands-personal",
   "private": true,
   "description": "A starter for a blog powered by Gatsby and Markdown",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Alan Hylands <alan@alanhylands.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/santino79/alanhylands.com/issues"
   },
   "dependencies": {
     "gatsby": "^2.3.30",
@@ -40,7 +40,7 @@
   "devDependencies": {
     "prettier": "^1.17.0"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/santino79/alanhylands.com#readme",
   "keywords": [
     "gatsby"
   ],
@@ -48,7 +48,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/santino79/alanhylands.com.git"
   },
   "scripts": {
     "build": "gatsby build",

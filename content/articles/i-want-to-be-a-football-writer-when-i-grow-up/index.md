@@ -3,9 +3,9 @@ title:  "I Want To Be A Football Writer When I Grow Up"
 date:   "2018-08-09T00:00:00.000Z"
 description:    "Chasing my professional football writing dream, catching it...and letting it go."
 ---
+![World Cup](./world-cup.jpg)
 ## Chasing my writing dream, catching it...and letting it go.
 
-![World Cup](./world-cup.jpg)
 ### I blame The Sun newspaper.
 My dad usually bought The Sun.
 
