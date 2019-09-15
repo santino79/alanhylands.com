@@ -14,16 +14,13 @@ class Index extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
-          title="Writer | Builder of online things | Solver of difficult data problems"
+          title="Data Analyst | Software Developer | Writer | Solver of difficult data problems"
           keywords={[`blog`, `data`, `analytics`, `writer`]}
         />
 
       <div className="Column">
           <div className="MainContent">
             <div className="u-textCenter">
-    
-
-            
 
           <h2 className="home__section__header">Hi, I'm Alan. I am a data analyst and writer 
           from Northern Ireland.</h2>
