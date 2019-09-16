@@ -22,12 +22,10 @@ class Index extends React.Component {
           <div className="MainContent">
             <div className="u-textCenter">
 
-          <h2 className="home__section__header">Hi, I'm Alan. I am a data analyst and writer 
-          from Northern Ireland.</h2>
+          <h2 className="home__section__header">Analyst | Developer | Writer</h2>
             
-            <h3>Data Consultant at Santinotech.</h3>
-            I am the founder of analytics consultancy <a href="https://santinotech.com">Santinotech</a>. I specialise in helping small teams harness the power of data and technology and reach their potential quickly.
-            
+            <h3>Founder at Santinotech.</h3>
+            I run tech consultancy <a href="https://santinotech.com">Santinotech</a>. I specialise in helping small teams harness the power of data and technology to build ethical, data-driven businesses.
             <h3>Technical Director at Cura Fitness.</h3>
             <a href="https://curafitness.com">Cura Fitness</a> is a boutique fitness studio based in County Down, Northern Ireland. 
             I run the back office operations including finance, data, technology, systems and administration.  
