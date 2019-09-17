@@ -14,7 +14,7 @@ class Index extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
-          title="Data Analyst | Software Developer | Writer | Solver of difficult data problems"
+          title="I help small teams solve difficult business problems with data and technology"
           keywords={[`blog`, `data`, `analytics`, `writer`]}
         />
 
@@ -22,7 +22,7 @@ class Index extends React.Component {
           <div className="MainContent">
             <div className="u-textCenter">
 
-          <h2 className="home__section__header">Analyst | Developer | Writer</h2>
+          <h2 className="home__section__header">I help small teams solve difficult business problems with data and technology.</h2>
             
             <h3>Founder at Santinotech.</h3>
             I run tech consultancy <a href="https://santinotech.com">Santinotech</a>. I specialise in helping small teams harness the power of data and technology to build ethical, data-driven businesses.
