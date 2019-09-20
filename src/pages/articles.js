@@ -16,7 +16,15 @@ class ArticleIndex extends React.Component {
           title="All Articles"
           keywords={[`blog`, `articles`]}
         />
-        <h2>All Articles</h2>
+
+      <div className="Column">
+          <div className="MainContent">
+            <div className="u-textLeft">
+
+        <h1>All Articles</h1>
+        <blockquote>
+        This is my personal blog where I write articles on a variety of topics including business, personal finance, tech, careers, writing and my quest to build a simple kind of life.
+        </blockquote>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
@@ -29,6 +37,12 @@ class ArticleIndex extends React.Component {
             </div>
           )
         })}
+
+
+        </div>
+        </div>
+      </div>
+
       </Layout>
     )
   }

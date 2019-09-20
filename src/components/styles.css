@@ -103,7 +103,7 @@ ol {
     letter-spacing: -2.3px;
   }
 
-  .home__section__header {
+  h2 {
     /* margin: 0; */
     line-height: 1;
     font-size: 2.5rem;
@@ -118,8 +118,10 @@ h1 {
   scale: 1.5;
   margin-bottom: 1.5;
   margin-top: 0;
-  font-size: 2.5em;
+  font-size: 3em;
   margin: 0.67em 0;
+  font-weight: 500;
+  color: #222;
 }
 
 h1, h2, h3, h4 {
@@ -130,6 +132,17 @@ h1, h2, h3, h4 {
 
 h3 {
   font-weight:500;
+}
+
+.BodyContent {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  /*padding-left: 10px;
+  padding-right: 10px;
+   max-width: 48em; 
+  padding-bottom: 30px;*/
+
 }
 
 
@@ -205,4 +218,44 @@ ul {
 
 .social :hover {
   color: #0f8e08;
+}
+
+.MainStripe1 {
+  /* max-width: 48em; */
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  /* padding-left: 50px;
+  padding-right: 50px; 
+  */
+  background-color: #eeeeee;
+}
+
+.bigText{
+  font-weight: 500;
+  font-size: 4rem;
+  line-height: 4rem;
+  letter-spacing: -2.3px;
+}
+
+.button, button {
+  background:#919191;
+  color: #000;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius:6px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  border:none;
+  padding: 10px;
+}
+
+.button:hover, button:hover {
+  border: none;
+  background:#000;
+  color: #f9f9f9;
+  box-shadow: 0px 0px 1px #777;
 }

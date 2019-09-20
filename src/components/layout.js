@@ -25,7 +25,7 @@ export default ({ children }) => (
           <div className="Navigation">
           <Navigation />
         </div>
-        <div className="MainContent u-textLeft">
+        <div className="BodyContent">
           {children}
         </div>
         <div className="Footer">

@@ -34,7 +34,7 @@ class AboutPage extends React.Component {
 
               <h2>Who I am.</h2>
 
-              My name is <strong>Alan Hylands</strong> and I am a <strong>data consultant, software developer and writer</strong> from Northern Ireland.
+              My name is <strong>Alan Hylands</strong> and I am a <strong>writer, data consultant and software developer</strong> from Northern Ireland.
 
               <h2>What I've done.</h2>
 
