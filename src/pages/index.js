@@ -5,7 +5,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Twitter, LinkedIn, GitHub, Email } from '../components/social'
 
-
 class Index extends React.Component {
   render() {
     const { data } = this.props
@@ -22,25 +21,28 @@ class Index extends React.Component {
           <div className="MainContent">
 
             <div className="u-textCenter">
-              <h1 className="bigText">Writer. Data Nerd. Developer.</h1>
-              <Image
-            fixed={data.avatar.childImageSharp.fixed}
-            alt="Alan Hylands"
-            style={{
               
-              marginBottom: 10,
-              minWidth: 50,
-              borderRadius: `100%`,
-            }}
-            imgStyle={{
-              borderRadius: `50%`,
-            }}
-          />
-          <br /><br />
-
-          <a href="/about/" className="button">Find out more.</a>
+              <h1 className="bigText">
+                Writer. Data Nerd. Developer.
+              </h1>
+              <Image
+                fixed={data.avatar.childImageSharp.fixed}
+                alt="Alan Hylands"
+                style={{
+                  
+                  marginBottom: 10,
+                  minWidth: 50,
+                  borderRadius: `100%`,
+                }}
+                imgStyle={{
+                  borderRadius: `50%`,
+                }}
+              />
+              <br /><br />
+              <a href="/projects/" className="button">Find out what I'm working on</a> 
 
             </div>
+
         </div>
       </div>
 
