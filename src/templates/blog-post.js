@@ -18,6 +18,11 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
+
+      <div className="Column">
+          <div className="MainContent">
+            <div className="u-textLeft">
+
         <h1>{post.frontmatter.title}</h1>
         <p
           style={{
@@ -35,6 +40,11 @@ class BlogPostTemplate extends React.Component {
             }}
           />
         <Bio />
+
+        </div>
+        </div>
+      </div>
+
 
       </Layout>
     )
