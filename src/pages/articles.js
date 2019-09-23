@@ -21,9 +21,12 @@ class ArticleIndex extends React.Component {
           <div className="MainContent">
             <div className="u-textLeft">
 
-        <h1>All Articles</h1>
+        <h1>All Articles.</h1>
         <blockquote>
-        This is my personal blog where I write articles on a variety of topics including business, personal finance, tech, careers, writing and my quest to build a simple kind of life.
+        This is my personal blog where I write articles on a variety of topics including 
+        business, personal finance, tech, careers, writing and my quest to build a simple kind of life.
+        <br /><br />
+        For my writing on data and analytics, check out <a href="https://simpleanalytical.com">Simple Analytical.</a>
         </blockquote>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug

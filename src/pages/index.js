@@ -13,7 +13,7 @@ class Index extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
-          title="Writer | Data Nerd | Developer"
+          title="Writer | Data Consultant "
           keywords={[`blog`, `data`, `analytics`, `writer`]}
         />
 
@@ -23,23 +23,29 @@ class Index extends React.Component {
             <div className="u-textCenter">
               
               <h1 className="bigText">
-                Writer. Data Nerd. Developer.
-              </h1>
-              <Image
-                fixed={data.avatar.childImageSharp.fixed}
-                alt="Alan Hylands"
-                style={{
-                  
-                  marginBottom: 10,
-                  minWidth: 50,
-                  borderRadius: `100%`,
-                }}
-                imgStyle={{
-                  borderRadius: `50%`,
-                }}
-              />
-              <br /><br />
-              <a href="/projects/" className="button">Find out what I'm working on</a> 
+               Writer and Data Consultant.
+               </h1>
+               <Image
+            fixed={data.avatar.childImageSharp.fixed}
+            alt="Alan Hylands"
+            style={{
+              
+              marginBottom: 10,
+              minWidth: 50,
+              borderRadius: `100%`,
+            }}
+            imgStyle={{
+              borderRadius: `50%`,
+            }}
+          />
+
+            <div className="social-holder">
+              <Email />
+              <Twitter />
+              <LinkedIn />
+              <GitHub />
+            </div>
+
 
             </div>
 
@@ -49,14 +55,25 @@ class Index extends React.Component {
 
       <div className="Column">
           <div className="MainContent">
-            <div className="u-textCenter">
+            <div className="u-textLeft">
+              <h2>What am I doing now?</h2>
+
+            <h3>Need a data expert to help push your business on to the next level?</h3>
+            Give me a shout at <a href="https://santinotech.com/contact/">Santinotech</a>.
+
+            <h3>Want to build your data analyst skills?</h3>
+            Come on over to <a href="https://simpleanalytical.com">Simple Analytical</a> for hints, tips, strategies and 
+            tales from the analytics coalface.
+
+            <h3>Missing out on data jobs because you don't know SQL?</h3>
+            Try my <strong>FREE</strong> <a href="https://sqlcrashcourse.com">SQL Crash Course</a> and get your foot on the analytics ladder.
             
-            <div className="social-holder">
-              <Email />
-              <Twitter />
-              <LinkedIn />
-              <GitHub />
-            </div>
+            
+            <h2>Want to know some more?</h2>
+              <ul>
+                <li>See my <a href="/about/">About page</a> for some back story.</li>
+                <li>Check out my <a href="/projects/">Projects</a> page for more current and past projects.</li>
+              </ul>
 
           </div>
         </div>
