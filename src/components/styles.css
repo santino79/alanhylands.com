@@ -26,20 +26,20 @@ ol {
   }
 
   .Navigation {
-    text-align: center;
+    text-align: rileftght;
     letter-spacing: .0625em;
     float: none;
     padding-top: 3px;
     padding-bottom: 3px;
-
+    max-width: 48em; 
     margin-left: auto;
     margin-right: auto;
     background-color: #fff;
   }
 
   .Navigation a {
-    color: currentColor;
-    color: inherit;
+    color: #666;
+    /* color: inherit; */
     text-decoration: none;
     box-shadow: none;
     font-weight: 600;   
@@ -57,12 +57,12 @@ ol {
   }
 
   .Header {
-    /* max-width: 48em; */
+    max-width: 48em; 
     margin-left: auto;
     margin-right: auto;
-    padding-top: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     background-color: #fff;
   }
   
@@ -70,7 +70,7 @@ ol {
 .Banner {
   /*font-family: Oswald, sans-serif;*/
   font-weight: bold;
-  text-align: center;
+  text-align: left;
   /* margin-top: 10px; */
 }
 
@@ -97,9 +97,9 @@ ol {
   }
 
   .bigText{
-    font-weight: 500;
-    font-size: 4rem;
-    line-height: 4rem;
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 5.5rem;
     letter-spacing: -2.3px;
   }
 
@@ -109,20 +109,22 @@ ol {
     font-size: 2.5rem;
     margin-top: 2rem;
     margin-bottom: 3rem;
-    color: #222;
+    color: #333;
     font-weight: 400;
   }
   
 
 h1 {
-  scale: 1.5;
+  /* scale: 1.5; */
   margin-bottom: 1.5;
   margin-top: 0;
-  font-size: 3em;
+  font-size: 3.5em;
   margin: 0.67em 0;
-  font-weight: 500;
+  font-weight: 600;
   color: #222;
   padding-bottom: 10px;
+  line-height: 4rem;
+  letter-spacing: -2.3px;
 }
 
 h1, h2, h3, h4 {
@@ -233,12 +235,6 @@ ul {
   background-color: #eeeeee;
 }
 
-.bigText{
-  font-weight: 500;
-  font-size: 4rem;
-  line-height: 4rem;
-  letter-spacing: -2.3px;
-}
 
 .button, button {
   background:#919191;

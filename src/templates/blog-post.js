@@ -1,6 +1,5 @@
 import React from "react"
 import { graphql } from "gatsby"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
@@ -31,6 +30,7 @@ class BlogPostTemplate extends React.Component {
             marginBottom: "50px",
             marginTop: rhythm(-1),
           }}
+          
         >
         </p>
         <div className="u-textLeft"  dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -59,6 +59,7 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         author
+        siteUrl
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
@@ -68,7 +69,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
-        description
+        description 
       }
     }
   }

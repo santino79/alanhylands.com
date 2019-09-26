@@ -23,7 +23,7 @@ class Projects extends React.Component {
             
             <h3>Founder at Santinotech.</h3>
             I run tech consultancy <a href="https://santinotech.com">Santinotech</a>. I help small teams 
-            use their data and technology to build stronger, more ethical, data-driven businesses.
+            use their data and technology to build stronger, more ethical, data-informed businesses.
             
             <h3>Technical Director at Cura Fitness.</h3>
 

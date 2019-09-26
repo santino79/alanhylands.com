@@ -19,6 +19,7 @@ export default ({ children }) => (
     `}
     render={data => (
       <>
+      
         <div className="Header">
           <Banner />
         </div>
