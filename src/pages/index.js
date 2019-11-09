@@ -21,15 +21,7 @@ class Index extends React.Component {
 
             <div className="u-textLeft">
 
-            <h1 className="bigText">
-               Writer.<br />
-               Analyser of Data.<br />
-               Builder of Online Things.
-            </h1>
-
-
-
-              <h2>Hi, I'm Alan.</h2>
+            <h1>Hi, I'm Alan.</h1>
 
             I build digital and data products for small businesses at <a href="https://santinotech.com/contact/">Santinotech</a>.
 

@@ -2,9 +2,9 @@ import React from 'react'
 // import SEO from './seo'
 import { StaticQuery, graphql } from 'gatsby'
 
-import Banner from './banner'
-import Navigation from './navigation'
 import Footer from './footer'
+import Header from './header'
+
 
 import '../graphql/fragments'
 
@@ -21,10 +21,7 @@ export default ({ children }) => (
       <>
       
         <div className="Header">
-          <Banner />
-        </div>
-          <div className="Navigation">
-          <Navigation />
+          <Header />
         </div>
         <div className="BodyContent">
           {children}
