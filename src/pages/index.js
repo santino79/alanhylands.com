@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Twitter, LinkedIn, GitHub, Email } from '../components/social'
+import Image from "gatsby-image"
 
 class Index extends React.Component {
   render() {
@@ -23,14 +24,30 @@ class Index extends React.Component {
 
             <h1>Hi, I'm Alan.</h1>
 
+            <Image
+            fixed={data.avatar.childImageSharp.fixed}
+            alt="Alan Hylands" 
+            style={{
+              
+              marginBottom: 10,
+              minWidth: 50,
+              borderRadius: `100%`,
+              float: `right`,
+            }}
+            imgStyle={{
+              borderRadius: `50%`,
+            }}
+          />
+
             I build digital and data products for small businesses at <a href="https://santinotech.com/contact/">Santinotech</a>.
 
             I write hints, tips, strategies and tales from the analytics coalface for data analysts at <a href="https://simpleanalytical.com">Simple Analytical</a>.
             And I help them get started learning SQL with my online <a href="https://sqlcrashcourse.com">SQL Crash Course</a>. 
             <br /><br />
+            I am also technical director at our family boutique fitness studio <a href="https://curafitness.com">Cura Fitness</a>.
+            <br /><br />
             This is my personal site where I write <a href="/articles/">articles</a> on a variety of topics including business, personal finance, tech, careers, writing and my quest to build a simple kind of life. 
 
-            
             <h2>Want to know some more?</h2>
               <ul>
                 <li>See my <a href="/about/">About page</a> for some back story.</li>
@@ -38,13 +55,13 @@ class Index extends React.Component {
               </ul>
 
               <div className="social-holder">
-              <Email />
-              <Twitter />
-              <LinkedIn />
-              <GitHub />
+                <Email />
+                <Twitter />
+                <LinkedIn />
+                <GitHub />
             </div>
-
-
+          
+      
           </div>
         </div>
       </div>
@@ -58,6 +75,13 @@ export default Index
 
 export const pageQuery = graphql`
   query {
+    avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+      childImageSharp {
+        fixed(width: 200, height: 200) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
     site {
       siteMetadata {
         author

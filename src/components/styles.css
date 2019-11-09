@@ -20,9 +20,14 @@ body{
 
 .banner a {
   display: block;
-  color: inherit;
+  color: #222;
   text-decoration: none;
   box-shadow: none;
+}
+
+.banner a:hover {
+  color: #222;
+  text-decoration: none;
 }
 
 .navbar {
@@ -184,7 +189,7 @@ ol {
 
 
   a {
-    color: #0f8e08;
+    color: #006600;
     text-decoration: none;
     box-shadow: none;
   }
@@ -296,6 +301,12 @@ ol, ul, dl {
   padding-right: 50px;
   padding-bottom: 20px;
   background-color: #f7f7f7;
+}
+
+.Footer:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .footer-content{

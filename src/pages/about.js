@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+// import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -7,7 +7,7 @@ import { Twitter, LinkedIn, GitHub, Email } from '../components/social'
 
 class AboutPage extends React.Component {
   render() {
-    const { data } = this.props
+    // const { data } = this.props
 
 // export default function About({ data }) {
 //   const page = data.markdownRemark
@@ -95,12 +95,12 @@ class AboutPage extends React.Component {
 
 export default AboutPage
 
-export const query = graphql`
-  query {
-    site {
-      siteMetadata {
-        author
-      }
-    }
-  }
-`
+// export const query = graphql`
+//   query {
+//     site {
+//       siteMetadata {
+//         author
+//       }
+//     }
+//   }
+// `
