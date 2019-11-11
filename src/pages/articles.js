@@ -28,18 +28,21 @@ class ArticleIndex extends React.Component {
         <br /><br />
         For my writing on data and analytics, check out <a href="https://simpleanalytical.com">Simple Analytical.</a>
         </blockquote>
+
+        <ul>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
             <div key={node.fields.slug}>
-              
+                <li>
                 <Link to={node.fields.slug}>
                   {title}
                 </Link>
-              
+                </li>
             </div>
           )
         })}
+        </ul>
 
 
         </div>

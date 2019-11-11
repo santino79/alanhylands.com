@@ -22,7 +22,6 @@ class Index extends React.Component {
 
             <div className="u-textLeft">
 
-            <h1>Hi, I'm Alan.</h1>
 
             <Image
             fixed={data.avatar.childImageSharp.fixed}
@@ -30,9 +29,10 @@ class Index extends React.Component {
             style={{
               
               marginBottom: 10,
+              marginRight: 10,
               minWidth: 50,
               borderRadius: `100%`,
-              float: `right`,
+              float: `left`,
             }}
             imgStyle={{
               borderRadius: `50%`,
@@ -77,7 +77,7 @@ export const pageQuery = graphql`
   query {
     avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
       childImageSharp {
-        fixed(width: 200, height: 200) {
+        fixed(width: 100, height: 100, grayscale: true) {
           ...GatsbyImageSharpFixed
         }
       }

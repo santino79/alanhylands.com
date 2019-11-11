@@ -238,7 +238,8 @@ h1 {
   margin: 0.67em 0;
   font-weight: 600;
   color: #222;
-  padding-bottom: 10px;
+  padding-top:20px;
+  padding-bottom: 30px;
   line-height: 4rem;
   letter-spacing: -2.3px;
 }
@@ -300,7 +301,7 @@ ol, ul, dl {
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 20px;
-  background-color: #f7f7f7;
+  /* background-color: #f7f7f7; */
 }
 
 .Footer:after {
