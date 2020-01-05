@@ -21,9 +21,6 @@ class Projects extends React.Component {
             <div className="u-textLeft">
             <h1>Projects.</h1>
             
-            <h3>Founder at Santinotech.</h3>
-            I run tech consultancy <a href="https://santinotech.com">Santinotech</a>. I help small teams 
-            use their data and technology to build stronger, more ethical, data-informed businesses.
             
             <h3>Technical Director at Cura Fitness.</h3>
 
@@ -48,6 +45,10 @@ class Projects extends React.Component {
             
 
             <h2><em>Past Projects.</em></h2>
+
+            <h3>Founder at Santinotech.</h3>
+            <a href="https://santinotech.com">Santinotech</a> was the umbrella for my tech consultancy and development projects. I helped small teams 
+            use their data and technology to build stronger, more ethical, data-informed businesses.
 
             <h3>Liz's Lockets.</h3>
 

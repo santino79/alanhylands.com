@@ -66,9 +66,11 @@ class AboutPage extends React.Component {
               <br /><br />
               We operated as a small, highly skilled mini-consultancy, helping guide the business on getting most value out of their commercial data driven projects and programmes.
               <br /><br />
-              Now in my own consulting work at <a href="https://santinotech.com">Santinotech</a>, I bring all of my <strong>technical, analytical and entrepreneurial experience</strong> to the table to get results for our customers.
+              In my own consulting work at <a href="https://santinotech.com">Santinotech</a>, I brought all of my <strong>technical, analytical and entrepreneurial experience</strong> to the table to get results for our customers.
               <br /><br />
-              I am also <strong>Technical Director</strong> at <a href="https://curafitness.com">Cura Fitness</a>, a boutique fitness studio based in County Down, Northern Ireland.
+              In early 2020, I joined <a href="https://zapier.com">Zapier</a> as a Senior Decision Scientist.
+              <br /><br />
+              I am also <strong>Technical Director</strong> at <a href="https://curafitness.com">Cura Fitness</a>, our family boutique fitness studio based in County Down, Northern Ireland.
 
               <h2>Where you can find me.</h2>
               

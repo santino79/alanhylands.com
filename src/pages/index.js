@@ -13,7 +13,7 @@ class Index extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
-          title="Writer | Data Consultant | Developer"
+          title="Writer | Analyst | Developer"
           keywords={[`blog`, `data`, `analytics`, `writer`]}
         />
 
@@ -39,7 +39,7 @@ class Index extends React.Component {
             }}
           />
 
-            I build digital and data products for small businesses at <a href="https://santinotech.com/contact/">Santinotech</a>.
+            I am a senior decision scientist at <a href="https://zapier.com">Zapier</a>.
 
             I write hints, tips, strategies and tales from the analytics coalface for data analysts at <a href="https://simpleanalytical.com">Simple Analytical</a>.
             And I help them get started learning SQL with my online <a href="https://sqlcrashcourse.com">SQL Crash Course</a>. 
@@ -48,7 +48,7 @@ class Index extends React.Component {
             <br /><br />
             This is my personal site where I write <a href="/articles/">articles</a> on a variety of topics including business, personal finance, tech, careers, writing and my quest to build a simple kind of life. 
 
-            <h2>Want to know some more?</h2>
+            <h2>Want to know more?</h2>
               <ul>
                 <li>See my <a href="/about/">About page</a> for some back story.</li>
                 <li>Check out my <a href="/projects/">Projects</a> page for more info on my current and past projects.</li>
